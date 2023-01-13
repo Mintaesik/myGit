@@ -28,6 +28,7 @@ public class UDPEchoClient {
 			System.out.println("server ip : " + dp.getAddress() + " , server port : " + dp.getPort());
 			System.out.println("서버에서 보낸 메시지 : " + new String(dp.getData()).trim());
 			//trim() 메시지에서 여백들 제거하는 기능
+			System.out.println("깃 테스트용");
 			
 		} catch (Exception e) {
 			e.printStackTrace();
